@@ -1,1 +1,2 @@
-
+Đáp án: === 
+Vì === là so sánh nghiêm ngặt: kiểm tra cả giá trị và kiểu dữ liệu, ví dụ "5" === 5 → false. Còn == chỉ so sánh giá trị, tự động ép kiểu nên dễ gây lỗi không mong muốn, ví dụ "5" == 5 → true. Dấu = chỉ dùng để gán giá trị, không phải để so sánh
