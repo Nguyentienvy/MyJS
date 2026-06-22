@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <title>Website MyJS</title>
+  <link rel="stylesheet" href="../css/style.css" />
+</head>
+<body>
+
+  <!-- THANH MENU -->
+  <nav>
+    <ul>
+      <li><a href="#intro">Giới thiệu</a></li>
+      <li><a href="#content">Nội dung</a></li>
+      <li><a href="#contact">Liên hệ</a></li>
+    </ul>
+  </nav>
+
+  <!-- PHẦN GIỚI THIỆU -->
+  <section id="intro">
+    <h1>Chào mừng đến với Website MyJS</h1>
+    <p>Đây là mini project tổng hợp HTML, CSS và JavaScript.</p>
+  </section>
+
+  <!-- NÚT ẨN/HIỆN NỘI DUNG -->
+  <section id="content">
+    <button id="btnToggle">Ẩn/Hiện nội dung</button>
+    <p id="hiddenContent">Đây là nội dung được ẩn/hiện bằng JavaScript. Khi bấm nút, nội dung này sẽ biến mất hoặc hiện ra.</p>
+  </section>
+
+  <!-- BIỂU MẪU LIÊN HỆ -->
+  <section id="contact">
+    <h2>Liên hệ</h2>
+    <form id="contactForm">
+      <label>Họ tên:</label><br />
+      <input type="text" id="nameInput" placeholder="Nhập họ tên..." /><br /><br />
+
+      <label>Email:</label><br />
+      <input type="text" id="emailInput" placeholder="Nhập email..." /><br /><br />
+
+      <label>Lời nhắn:</label><br />
+      <textarea id="messageInput" placeholder="Nhập lời nhắn..."></textarea><br /><br />
+
+      <button type="submit">Gửi liên hệ</button>
+    </form>
+    <p id="formResult"></p>
+  </section>
+
+  <script src="../js/script.js"></script>
+</body>
+</html>
