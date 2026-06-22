@@ -1,1 +1,2 @@
-
+Đáp án: const
+Vì const dùng khi khai báo một giá trị mà bạn không muốn gán lại sau này (hằng số). let mới dùng cho biến có thể thay đổi giá trị, còn var là cách khai báo cũ, ít dùng vì có nhiều lỗi về phạm vi (scope)
