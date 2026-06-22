@@ -1,1 +1,2 @@
-
+Đáp án:Xử lý tương tác hành vi
+Vì JS chạy trong trình duyệt để bắt sự kiện (click, gõ phím...), thay đổi nội dung trang theo thời gian thực. Cấu trúc trang là việc của HTML, vẽ màu nền là việc của CSS — JS không đảm nhiệm 2 việc đó
